@@ -1,0 +1,189 @@
+
+.tabla-elecciones {
+    width: 1024px;
+    background-color:  #fafafa;
+    margin:  0 auto 50px auto;
+    border-collapse: collapse;
+    border-radius: 15px;
+    border: 1px solid var(--borde-Grilla);
+}
+
+.tabla-head th {
+    position: sticky;
+    top: -1px;
+    padding: 10px 20px;
+    text-align: center;
+    color: var(--titulo-Grilla);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #f3f3f3;
+    
+    
+}
+
+.tr-body:hover {
+    background-color: #fafafa;
+}
+
+.td-eleccion{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid var(--titulo-Grilla);
+    padding: 20px 0;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: top;
+    padding-left: 5px;
+}
+
+.texto-elecciones-chico {
+    font-size: 12px;
+    color: var(--textos);
+    font-weight: bold;
+}
+
+.texto-path-chico {
+    font-size: 11px;
+    color: var(--celeste);
+}
+ 
+#info-mesas-informe{
+    display: flex;
+  }
+
+.info-mesas-individual-informe {
+    border-radius: 5px;
+    width: 120px;
+    height: 70px;
+    padding: 0.5rem 1rem ;
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    margin:  0 auto 50px auto;
+
+  }
+
+.imagen-informe {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.h4-informe {
+  grid-column: 2;
+  margin: 0;
+  display: flex;
+
+  align-items: center;
+}
+
+.p-informe {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0;
+}
+
+.info-mesas-individual-informe h4, .info-mesas-individual-informe p {
+    color: #FFF;
+}
+
+#mesas-computadas{
+    background-color: #37bbed;
+    color: #FFF;
+  
+}
+
+#electores{
+    background-color: #ee3d8f; 
+    margin: 0 10px;
+}
+
+#escrutados{
+    background-color: #9283be;
+}
+
+.tabla-agrupacion {
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    padding: 5px;
+    font-size: 10px;
+    width: 250px;
+}
+
+.datos-agrupacion table{
+    height: 200px;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+table::-webkit-scrollbar {
+    width: 12px; /* Ancho del scrollbar */
+}
+  
+table::-webkit-scrollbar-thumb {
+    background-color: #3498db; /* Color del "thumb" (barra deslizante) */
+    border-radius: 6px; /* Bordes redondeados */
+}
+  
+table::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color de fondo del scrollbar */
+}
+
+.tabla-agrupacion h5, .tabla-agrupacion p{
+    color: #333;
+}
+
+.numeros {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.numeros p{
+    font-size: 10px;
+}
+
+.grupo {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.grupo h5{
+    font-size: 15px;
+}
+
+.year-eleccion p{
+    text-align: start;
+}
+
+.imagen-mapa-informe {
+    width: 120px;
+    margin: 10px 50px;
+    padding: 0;
+}
+
+.tabla-elecciones {
+    border-collapse: separate;
+    border-radius: 15px;
+}
+
+.fa-solid {
+    color: #fff;
+    padding-right: 5px;
+    font-size: 20px;
+
+}
+
+.mensaje-usuario{
+    display: none;
+}
+
+.tabla-agrupacion p{
+    color: #000000;
+}
+
